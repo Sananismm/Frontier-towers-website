@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://frontiertowers.com.pk/</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services.html</loc></url>
   <url><loc>https://frontiertowers.com.pk/about.html</loc></url>
   <url><loc>https://frontiertowers.com.pk/careers.html</loc></url>
   <url><loc>https://frontiertowers.com.pk/privacy.html</loc></url>
   <url><loc>https://frontiertowers.com.pk/terms.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/managed-services.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/engineering-services.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/renewable-energy.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/repair-return.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/iot-solutions.html</loc></url>
-  <url><loc>https://frontiertowers.com.pk/services/bpo-hr-payroll.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/flm-managed-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/operations-maintenance.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/site-security-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/dg-overhauling-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/rental-dg-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/solarization-installation.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/commercial-power-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/epa-jurisdiction-approvals.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/site-dismantling.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/supply-chain-management.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/telecom-implementation.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/technical-site-audit.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/site-construction-services.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/site-development.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/civil-works-implementation.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/technical-installations.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/installation-data-connectivity.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/network-expansions.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/commissioning-integration.html</loc></url>
+  <url><loc>https://frontiertowers.com.pk/services/remote-monitoring-system.html</loc></url>
 </urlset>
