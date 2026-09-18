@@ -1,4 +1,4 @@
-/* Canonical service catalogue. Keep the ordered list in sync with the static cards and sitemap. */
+/* Canonical service catalogue. Keep ordered names/slugs here; static HTML remains the no-JS fallback. */
 window.FRONTIER_SERVICES = Object.freeze([
   ['01', 'FLM Managed Services', 'Telecom field-level and operational support.', 'flm-managed-services.html'],
   ['02', 'Operations & Maintenance', 'Practical support for active infrastructure.', 'operations-maintenance.html'],

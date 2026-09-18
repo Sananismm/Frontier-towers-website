@@ -17,9 +17,9 @@ http://127.0.0.1:5500/
 
 ## Branches
 
-main = production-ready code
+main = production branch
 
-This branch, `improve/client-production-readiness`, contains the client-readiness hardening pass. It is intentionally not merged to `main`.
+This branch, `feature/production-readiness-hardening`, contains the client-readiness hardening pass. It is intentionally not merged to `main`.
 
 Create feature branches for development.
 
@@ -44,8 +44,11 @@ Examples:
 
 - `site-data.js` is the single place for public contact values and the optional form endpoint.
 - With no form endpoint configured, the contact form prepares an honest email draft rather than claiming a submission.
-- Service tabs are local accessible tabs; their “Learn more” CTA links to the dedicated service page.
+- The homepage service catalogue is a native horizontal scroller; its buttons are progressive-enhancement controls and each card is a normal anchor.
+- The contact service select has static fallback options and is synchronized from `services-data.js` when JavaScript is available.
 - `404.html`, `robots.txt` and `sitemap.xml` are included for launch hygiene.
+- Current imagery remains externally hosted on Unsplash; preserve those URLs unless a technical defect requires a non-content change.
+- Vercel production behavior should be verified after deployment, including the HTTP 404 response for `404.html`.
 
 ## Services architecture
 
@@ -75,3 +78,10 @@ The current catalogue contains exactly 20 public service offerings. The canonica
 The homepage uses native horizontal scrolling with calculated previous/next buttons. The directory page provides a complete responsive grid, and each service lives at `services/<slug>.html` with breadcrumbs, metadata, structured data, related links and a contact CTA. See [MIGRATION_NOTES.md](MIGRATION_NOTES.md) before changing legacy service URLs.
 
 To add a service, update `services-data.js`, add the static homepage and directory anchors, create a matching detail page, update the sitemap, and add any unresolved business details to `CLIENT_CONFIRMATION.md`.
+
+## Deployment and maintenance
+
+- Keep the production domain and sitemap reference in `robots.txt` aligned with `https://frontiertowers.com.pk/`.
+- Review [MIGRATION_NOTES.md](MIGRATION_NOTES.md) before redirecting legacy service URLs.
+- Keep public contact values in `site-data.js` synchronized with the crawlable HTML footer/contact copy.
+- Verify the real email-client mailto flow, external Google Maps behavior, image/font loading and Vercel custom-domain status in production.
